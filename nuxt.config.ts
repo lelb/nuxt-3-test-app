@@ -2,5 +2,8 @@
 export default defineNuxtConfig({
     modules: [
         "@nuxtjs/tailwindcss"
+    ],
+    buildModules: [
+        ['nuxt-storm', {nested: true, alias: true}],
     ]
 })
